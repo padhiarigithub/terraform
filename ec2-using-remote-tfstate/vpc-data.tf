@@ -5,7 +5,7 @@ data "terraform_remote_state" "vpc" {
     #hostname = "app.terraform.io"
     organization = "cloudmagician-pvt-ltd"
     workspaces = {
-      name = "terraformlearning-networking"
+      name = "codedeploy-pipeline"
     }
   }
 }
